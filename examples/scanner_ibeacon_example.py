@@ -9,5 +9,5 @@ scanner = BeaconScanner(callback,
     device_filter=IBeaconFilter(uuid="e5b9e3a6-27e2-4c36-a257-7698da5fc140")
 )
 scanner.start()
-time.sleep(5)
-scanner.stop()
+#time.sleep(5)
+#scanner.stop()
